@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: green; /* Ubah warna judul menjadi green */
+}
+
+.randomnumgenerator {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  .container {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #444;
+  }
+  .randomnumgenerator h1 {
+    font-size: 28px;
+  }
+  input[type="text"] {
+    padding: 5px;
+    font: bold 16px system-ui, Helvetica, Sans-Serif;
+    width: 100px;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #000;
+    display: block;
+  }
+  #randomnum {
+    font-size: 40px;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .randomnumgenerator button {
+    background: #4CAF50;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+  }
+  .randomnumgenerator button:hover {
+    background-color: #FF0000; /* Warna merah saat dihover */
+  }
+  .label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+#share-text {
+    margin-top: 20px; /* Move space before this text */
+    margin-bottom: 0; /* Remove margin-bottom */
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+display: flex;
+flex-direction: column; /* Mengubah orientasi flex menjadi column */
+align-items: flex-start; /* Mengatur posisi elemen ke kiri */
+background-color: black;
+padding: 15px;
+}
+
+.logo-container {
+background-color: black; /* Latar belakang hitam untuk logo */
+padding: 15px;
+}
+
+h1 {
+color: green;
+font-size: 36px;
+font-weight: bold;
+margin: 0;
+}
+
+nav {
+background-color: #444; /* Latar belakang abu-abu untuk navbar */
+border-radius: 0 0 5px 5px; /* Efek sudut melengkung hanya pada bagian bawah navbar */
+width: 100%; /* Lebar penuh untuk navbar */
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 10px; /* Padding untuk memberikan jarak di sekitar teks navbar */
+display: flex;
+justify-content: flex-start; /* Mengatur posisi navbar ke kiri */
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: green; /* Warna hijau untuk teks navbar */
+font-size: 16px;
+transition: color 0.3s;
+}
+
+nav a:hover {
+color: red; /* Warna merah saat diarahkan cursor */
+}
+
+footer {
+    background-color: #000000; /* Warna hitam */
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #008000; /* Warna hijau */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold; /* Tebal */
+    transition: color 0.3s; /* Transisi warna untuk efek halus */
+}
+
+footer a:hover {
+    color: #ff0000; /* Warna merah saat diarahkan */
+}
+
+.copyright {
+    color: #008000; /* Warna hijau untuk teks copyright */
+    margin-top: 10px; /* Spasi atas */
+    border-top: 1px solid #008000; /* Garis pemisah dengan warna hijau */
+    padding-top: 10px; /* Spasi atas pada teks copyright */
+    font-weight: bold; /* Tebal */
+    transition: color 0.3s; /* Transisi warna untuk efek halus */
+}
+
+.copyright-text:hover {
+    color: #ff0000; /* Warna merah saat diarahkan */
+}
