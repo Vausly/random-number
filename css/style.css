@@ -152,3 +152,10 @@ footer a:hover {
 .copyright-text:hover {
     color: #ff0000; /* Warna merah saat diarahkan */
 }
+
+/* Media queries untuk perangkat mobile */
+@media screen and (max-width: 600px) {
+  .randomnumgenerator {
+    width: 90%;
+    padding: 10px;
+  }
