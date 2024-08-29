@@ -2,6 +2,4 @@
 
 I made a simple Random Number generator tool just for fun.
 
-Imported from old account: https://github.com/LesunkXYZ/random-number
-
-Use this tool here: https://p.vausly.com/random-number
+Use this tool here: http://p.vausly.com/random-number
