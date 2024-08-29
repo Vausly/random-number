@@ -2,4 +2,4 @@
 
 I made a simple Random Number generator tool just for fun.
 
-Use this tool here: http://p.vausly.com/random-number
+Use this tool here: http://p.vausly.com/rng
