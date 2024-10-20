@@ -1,76 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color:white;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #1a1c8f, #3d1666, #9c219c);
 }
+
 #title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: green; /* Ubah warna judul menjadi green */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(254, 0, 119); 
 }
 
 .randomnumgenerator {
-    width: 500px;
-    margin: auto;
-    text-align: center;
-  }
-  .container {
-    background-color: #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #444;
-    width: auto;
-    height: auto;  
-  }
-  .randomnumgenerator h1 {
-    font-size: 28px;
-  }
-  input[type="text"] {
-    padding: 5px;
-    font: bold 16px system-ui, Helvetica, Sans-Serif;
-    width: 100px;
-    margin: 5px auto;
-    text-align: center;
-    border: 2px solid #000;
-    display: block;
-  }
-  #randomnum {
-    font-size: 40px;
-    background-color: #ccc;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  .randomnumgenerator button {
-    background: #4CAF50;
-    padding: 8px 20px;
-    color: #fff;
-    font-size: 25px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
-    margin-top: 10px;
-  }
-  .randomnumgenerator button:hover {
-    background-color: #FF0000; /* Warna merah saat dihover */
-  }
-  .label {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 5px;
-  }
-
-#share-text {
-    margin-top: 20px; /* Move space before this text */
-    margin-bottom: 0; /* Remove margin-bottom */
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.container {
+  background-color: #630d98;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 3px solid #000000;
+  width: auto;
+  height: auto;  
+}
+.randomnumgenerator h1 {
+  font-size: 28px;
+}
+input[type="text"] {
+  padding: 5px;
+  font: bold 16px system-ui, Helvetica, Sans-Serif;
+  width: 100px;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #000;
+  display: block;
+}
+#randomnum {
+  font-size: 40px;
+  background-color: #630d98;
+  padding: 20px;
+  border-radius: 10px;
+}
+.randomnumgenerator button {
+  background: rgb(254, 0, 119);
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+.randomnumgenerator button:hover {
+  background-color: #FF0000; /* Warna merah saat dihover */
+}
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
-body {
-margin: 0;
-padding: 0;
-font-family: Arial, sans-serif;
+#share-text {
+  margin-top: 20px; /* Move space before this text */
+  margin-bottom: 0; /* Remove margin-bottom */
 }
 
 header {
@@ -82,19 +81,19 @@ padding: 15px;
 }
 
 .logo-container {
-background-color: black; /* Latar belakang hitam untuk logo */
+background-color: #201140;
 padding: 15px;
 }
 
 h1 {
-color: green;
+color: rgb(254, 0, 119);
 font-size: 36px;
 font-weight: bold;
 margin: 0;
 }
 
 nav {
-background-color: #444; /* Latar belakang abu-abu untuk navbar */
+background-color: #2c1e4a; 
 border-radius: 0 0 5px 5px; /* Efek sudut melengkung hanya pada bagian bawah navbar */
 width: 100%; /* Lebar penuh untuk navbar */
 }
@@ -111,52 +110,56 @@ nav li {
 margin-right: 20px;
 }
 
-nav a {
+a {
+color: rgb(254, 0, 119);
 text-decoration: none;
-color: green; /* Warna hijau untuk teks navbar */
 font-size: 16px;
 transition: color 0.3s;
 }
 
-nav a:hover {
-color: red; /* Warna merah saat diarahkan cursor */
+a:hover, a:active {
+color: red;
+}
+
+a:visited {
+  color: rgb(245, 142, 212);
 }
 
 footer {
-    background-color: #000000; /* Warna hitam */
-    padding: 20px;
-    text-align: center;
+  background-color: #201140; 
+  padding: 20px;
+  text-align: center;
 }
 
 footer a {
-    color: #008000; /* Warna hijau */
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold; /* Tebal */
-    transition: color 0.3s; /* Transisi warna untuk efek halus */
+  color: rgb(254, 0, 119);
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold; /* Tebal */
+  transition: color 0.3s; /* Transisi warna untuk efek halus */
 }
 
 footer a:hover {
-    color: #ff0000; /* Warna merah saat diarahkan */
+  color: #ff0000; /* Warna merah saat diarahkan */
 }
 
 .copyright {
-    color: #008000; /* Warna hijau untuk teks copyright */
-    margin-top: 10px; /* Spasi atas */
-    border-top: 1px solid #008000; /* Garis pemisah dengan warna hijau */
-    padding-top: 10px; /* Spasi atas pada teks copyright */
-    font-weight: bold; /* Tebal */
-    transition: color 0.3s; /* Transisi warna untuk efek halus */
+  color: rgb(254, 0, 119);
+  margin-top: 10px; /* Spasi atas */
+  border-top: 1px solid rgb(254, 0, 119); /* Garis pemisah dengan warna hijau */
+  padding-top: 10px; /* Spasi atas pada teks copyright */
+  font-weight: bold; /* Tebal */
+  transition: color 0.3s; /* Transisi warna untuk efek halus */
 }
 
 .copyright-text:hover {
-    color: #ff0000; /* Warna merah saat diarahkan */
+  color: #ff0000; /* Warna merah saat diarahkan */
 }
 
 /* Media queries untuk perangkat mobile */
 @media screen and (max-width: 600px) {
-  .randomnumgenerator {
-    width: 90%;
-    padding: 10px;
-  }
+.randomnumgenerator {
+  width: 90%;
+  padding: 10px;
+}
 }
